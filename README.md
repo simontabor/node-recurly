@@ -4,10 +4,12 @@ Node-Recurly
 node-recurly is a node.js library for using the recurly recurring billing service. This library is intended to follow very closely the recurly documentation found at:
 http://docs.recurly.com/
 
+Unfortunately we have to do manual installation, works best as a git submodule.
+
 Installation
 ===============
 
-	npm install node-recurly
+	git submodule add git@github.com:simontabor/node-recurly.git node_modules/node-recurly
 
 add a config file to your project that has contents similar to:
 
